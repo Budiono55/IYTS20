@@ -16,7 +16,7 @@
 }
 
 .navbar-brand > img{
-  width: 25%;
+  width: 30%;
   padding: 15px 0;
 }
 
@@ -35,6 +35,14 @@
   margin: 0;
   padding: 0;
   justify-content: space-evenly;
+}
+
+.menu-burger{
+  display: none;
+}
+
+#burger-menu-modal{
+  display: none;
 }
 
 /* Diff */
@@ -16111,6 +16119,7 @@ blockquote .small:before {
   .u-pagination.responsive-style2 .u-pagination-item.active ~ .u-pagination-item:nth-last-child(3) {
     display: none;
   }
+  
 }
 .u-breadcrumbs {
   list-style: none;
@@ -18534,6 +18543,7 @@ a.pswp__share--download:hover {
   .u-table-responsive tfoot td {
     white-space: nowrap;
   }
+  
 }
 .u-custom-list {
   list-style-type: none;
@@ -19040,6 +19050,7 @@ a.pswp__share--download:hover {
     flex-grow: 0;
     margin-left: auto;
   }
+  
 }
 .u-checkout-button-container {
   display: flex;
@@ -36446,6 +36457,79 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-footer .u-sheet-1 {
     min-height: 57px;
   }
+
+  /* .menu-burger{
+      display: block;
+      font-size: 6vw;
+      color: white;
+      text-decoration: none;
+      float: right;
+  }
+
+  .menu-burger:hover{
+      color:rgb(224, 223, 223)
+  }
+
+  #burger-menu-modal{
+      display: block;
+      position: fixed;
+      background-color: #212529 !important;
+      width: 40vw;
+      height: 100vh;
+      left: -50vw;
+      transition: left .4s ease-in-out;
+      z-index: 9999;
+      overflow-x: visible;
+  }
+
+  .burger-menu-overlay{
+      position: fixed;
+      visibility: hidden;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgb(0, 0, 0);
+      opacity: 0;
+      transition: opacity 0.4s ease-in-out;
+      z-index: 9998;
+  }
+
+  .burger-menu-wrap{
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      width: 100%;
+      height: 60%;
+      margin-top: 5vh;
+      z-index: 2;
+  }
+
+  .burger-menu-wrap > a{
+      display: inline-block;
+      font-size: 1.5em;
+      color: rgba(255, 255, 255) !important;
+      text-decoration: none !important;
+      max-height: 20%;
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+
+  .burger-menu-wrap > a:hover{
+      color:rgb(224, 223, 223) !important;
+  }
+
+  .burger-menu-wrap > div{
+      height: 60%;
+  }
+
+  .burger-menu-container{
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
+      justify-content: space-evenly;
+      height: 100%;
+  } */
+
 }
 @media (max-width: 575px) {
   .u-footer .u-sheet-1 {
